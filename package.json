@@ -1,9 +1,18 @@
 {
   "name": "Wcam-Live",
   "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "express": "^4.16.2",
     "log": "*",
     "socket.io": "^2.0.4"
+  },
+  "engines": {
+    "node": "5.0.0",
+    "npm": "3.5.2"
   }
 }
